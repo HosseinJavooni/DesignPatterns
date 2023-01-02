@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="046a0dda-d664-4577-a7f8-f7d9e3255251" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/momento/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/momento/DocumentHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/momento/DocumentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/momento/MomentoMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/MainStatePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/states/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/states/Ebotton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/states/FButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/states/Gbutton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statePattern/states/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JMiJg2J4IJ5WxrqF8bgWogWU4d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,12 +41,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/IT video tutorial/Design Patterns _ Udemy _ Mosh Hamedani/Projects/DesignPatterns/src",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="statePattern.states" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainStatePattern">
+    <configuration name="MainStatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statePattern.MainStatePattern" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="statePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MomentoMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="momento.MomentoMainClass" />
       <module name="DesignPatterns" />
@@ -53,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainStatePattern" />
         <item itemvalue="Application.MomentoMainClass" />
       </list>
     </recent_temporary>
@@ -66,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671894285158</updated>
       <workItem from="1671894286470" duration="300000" />
+      <workItem from="1672555285631" duration="4369000" />
     </task>
     <servers />
   </component>
